@@ -5,13 +5,35 @@ body{
     padding: 0;
 }
 #algn{
-    height: 92vh;
+    height: 50vh;
     min-height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-top: 20px;
 }
+.int {
+    background-color: #f30d19;
+    margin: 10px 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn {
+    /* width: 100%; */
+    height: 40px;
+    border: hidden;
+    border-radius: 20px;
+    font-size: 18px;
+    margin: 5px 0px;
+  }
 
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: start;
+}
 #card{
     width: 370px;
     height: 435px;

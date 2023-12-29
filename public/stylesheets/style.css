@@ -95,6 +95,11 @@ h4 {
   background-color: #df0812;
 }
 
+.error{
+  color: red;
+  font-weight: 500;
+  text-transform: capitalize;
+}
 .or {
   font-size: 15px;
   font-weight: 700;
